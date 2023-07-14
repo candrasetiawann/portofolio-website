@@ -9,9 +9,19 @@ interface ThemeContextProps {
 export const ThemeContext = createContext<ThemeContextProps | null>(null);
 const preferColorSchemeQuery = "(prefers-color-scheme:dark)";
 
-const giveInitialTheme = (): string =>
-  localStorage.getItem("theme") ||
-  (matchMedia(preferColorSchemeQuery).matches ? "dark" : "light");
+// const giveInitialTheme = (): string =>
+//   localStorage.getItem("theme") ||
+//   (matchMedia(preferColorSchemeQuery).matches ? "dark" : "light");
+
+const giveInitialTheme = (): string => {
+  if (typeof window !== "undefined") {
+    return (
+      localStorage.getItem("theme") ||
+      (matchMedia(preferColorSchemeQuery).matches ? "dark" : "light")
+    );
+  }
+  return "light";
+};
 
 // useTheme
 const useTheme = () => {
