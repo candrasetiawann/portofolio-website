@@ -14,7 +14,7 @@ const contactItem = [
   {
     name: "Email",
     username: "candrasetiawan0630@gmail.com",
-    url: "candrasetiawan0630@gmail.com",
+    url: "",
   },
 ];
 

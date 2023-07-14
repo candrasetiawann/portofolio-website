@@ -4,7 +4,7 @@ import NavbarItem from "./NavbarItem";
 import ThemeSwitcherButton from "../Buttons/ThemeSwitcherButton";
 import NavModal from "./NavModal";
 import NavModalButton from "./NavModalButton";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const contents = [
   { target: "/", title: "Home" },
@@ -33,22 +33,6 @@ export const Navbar = () => {
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
   };
-
-  // const [isScrolled, setIsScrolled] = useState<boolean>(false);
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     if (window.scrollY > 0) {
-  //       setIsScrolled(true);
-  //     } else {
-  //       setIsScrolled(false);
-  //     }
-  //   };
-
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
 
   const pathName = usePathname();
   return (

@@ -93,7 +93,7 @@ const CardProjects = () => {
             } transition-all duration-300`}
           >
             <Image
-              className=""
+              className="w-full"
               alt={projects.title}
               src={getImagePath(projects.images)}
               width={340}

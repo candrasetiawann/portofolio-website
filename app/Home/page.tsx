@@ -1,4 +1,3 @@
-import TypeWriterDesc from "../components/Home/TypeWriterDesc";
 import DownloadResumeButton from "../components/Home/DownloadResumeButton";
 import Image from "next/image";
 import profilePic from "@/app/assets/img/candra.jpg";
@@ -15,7 +14,6 @@ const Home = () => {
           portfolio website.
         </p>
         <div className="space-y-2">
-          {/* <TypeWriterDesc /> */}
           <DownloadResumeButton />
         </div>
       </div>

@@ -121,7 +121,7 @@ const TabSkills = () => {
                 <p className="pt-5 font-bold text-neutral-700 dark:text-sky-600">
                   {skill.name}
                 </p>
-                <p className="pt-5 font-bold text-neutral-700 dark:text-sky-600">
+                <p className="pt-5  text-neutral-700 dark:text-sky-600">
                   {skill.experience}
                 </p>
               </div>
