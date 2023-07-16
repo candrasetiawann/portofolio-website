@@ -10,6 +10,7 @@ const Home = () => {
           Hello :)
         </h1>
         <p className="pb-4 text-neutral-700 dark:text-sky-600 ">
+          {/*eslint-disable-next-line react/no-unescaped-entities */}
           I'm <span className="text-amber-500">Candra</span> 👋🏼, welcome to my
           portfolio website.
         </p>
