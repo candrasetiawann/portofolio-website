@@ -9,19 +9,19 @@ const skillCategories = [
     skills: [
       {
         name: "HTML",
-        experience: "2 years of experience",
+        experience: "6 month of experience",
       },
       {
         name: "CSS",
-        experience: "2 years of experience",
+        experience: "6 month of experience",
       },
       {
         name: "JavaScript",
-        experience: "1 years of experience",
+        experience: "5 month of experience",
       },
       {
         name: "TypeScript",
-        experience: "1 years of experience",
+        experience: "3 month of experience",
       },
     ],
     images: ["HTML", "CSS", "JavaScript", "TypeScript"],
@@ -32,15 +32,15 @@ const skillCategories = [
     skills: [
       {
         name: "Bootstrap",
-        experience: "2 years of experience",
+        experience: "2 month of experience",
       },
       {
         name: "Tailwind",
-        experience: "1 years of experience",
+        experience: "2 month of experience",
       },
       {
         name: "Next Js",
-        experience: "5 month of experience",
+        experience: "2 month of experience",
       },
     ],
     images: ["Bootstrap", "Tailwind", "NextJS"],
@@ -51,19 +51,19 @@ const skillCategories = [
     skills: [
       {
         name: "React",
-        experience: "1 years of experience",
+        experience: "2 month of experience",
       },
       {
         name: "Authjs",
-        experience: "3 month of experience",
+        experience: "2 month of experience",
       },
       {
         name: "Prisma",
-        experience: "3 month of experience",
+        experience: "1 month of experience",
       },
       {
         name: "Jotai",
-        experience: "3 month of experience",
+        experience: "1 month of experience",
       },
     ],
     images: ["React", "Authjs", "Prisma", "Jotai"],
