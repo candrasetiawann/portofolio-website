@@ -56,6 +56,14 @@ const projectsData = [
     projectUrl: "https://github.com/candrasetiawann/spaport",
     projectDemoUrl: "https://spaportf.vercel.app/",
   },
+  {
+    title: "quizkuis",
+    desc: "Simple quiz game using ReactJs and Tailwind css",
+    tech: ["React JS", "Nextjs", "Tailwind css"],
+    images: "quiz",
+    projectUrl: "https://github.com/candrasetiawann/QuizKuis",
+    projectDemoUrl: "",
+  },
 ];
 
 const CardProjects = () => {
