@@ -64,6 +64,14 @@ const projectsData = [
     projectUrl: "https://github.com/candrasetiawann/QuizKuis",
     projectDemoUrl: "",
   },
+  {
+    title: "Pokemon Web App",
+    desc: "A Pokemon list app allows view the Pokemon",
+    tech: ["React JS", "Nextjs", "Tailwind css", "Tanstack Query"],
+    images: "poke",
+    projectUrl: "https://github.com/candrasetiawann/belajar-react-query",
+    projectDemoUrl: "https://poke-react-query.vercel.app/",
+  },
 ];
 
 const CardProjects = () => {
