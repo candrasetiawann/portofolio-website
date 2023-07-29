@@ -3,6 +3,7 @@ import About from "./About/page";
 import Skills from "./Skills/page";
 import Project from "./Projects/page";
 import Contact from "./Contact/page";
+import Footer from "./footer/page";
 
 export default function Page() {
   return (
@@ -12,6 +13,7 @@ export default function Page() {
       <Skills />
       <Project />
       <Contact />
+      <Footer />
     </>
   );
 }
