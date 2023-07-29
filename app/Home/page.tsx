@@ -1,6 +1,24 @@
 import DownloadResumeButton from "../components/Home/DownloadResumeButton";
 import Image from "next/image";
 import profilePic from "@/app/assets/img/candra.jpg";
+import envelope from "../assets/img/contact/envelope.svg";
+import github from "../assets/img/contact/github.svg";
+import linkedin from "../assets/img/contact/social-linkedin.svg";
+
+const iconContact = [
+  {
+    name: "envelope",
+    src: envelope,
+  },
+  {
+    name: "github",
+    src: github,
+  },
+  {
+    name: "linkedin",
+    src: linkedin,
+  },
+];
 
 const Home = () => {
   return (
@@ -14,8 +32,18 @@ const Home = () => {
           I'm <span className="text-amber-500">Candra</span> 👋🏼, welcome to my
           portfolio website.
         </p>
-        <div className="space-y-2">
-          <DownloadResumeButton />
+        <div className="flex flex-row gap-x-6">
+          {/* <DownloadResumeButton /> */}
+          {iconContact?.map((icon: any) => (
+            <Image
+              className=""
+              key={icon.name}
+              src={icon.src}
+              alt="icon"
+              width={30}
+              height={30}
+            />
+          ))}
         </div>
       </div>
       <div className="order-1">
