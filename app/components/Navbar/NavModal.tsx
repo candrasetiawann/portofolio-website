@@ -27,9 +27,9 @@ const NavModal = ({ content, pathname, modalOpen }: Props) => {
           <Link
             className={` font-bold ${
               pathname === content.target
-                ? "text-sky-600 dark:text-amber-500"
-                : "text-neutral-700 dark:text-sky-600"
-            }  hover:text-blue-500 dark:hover:text-amber-500`}
+                ? "text-sky-600 dark:text-textgray"
+                : "text-neutral-700 dark:text-textgray"
+            }  hover:text-sky-600 dark:hover:text-amber-500`}
             href={content.target}
           >
             {content.title}

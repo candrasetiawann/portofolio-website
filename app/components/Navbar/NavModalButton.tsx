@@ -10,7 +10,7 @@ const NavModalButton = ({ toggleModal }: ToggleModalProps) => {
     <div className="md:hidden flex items-center">
       {/* button modal */}
       <button
-        className=" bg-slate-500 dark:bg-slate-700 rounded-md"
+        className="bg-slate-500 dark:bg-slate-500 rounded-md"
         onClick={toggleModal}
       >
         <Image src={hamberger} alt="menu icon" width={40} height={40} />

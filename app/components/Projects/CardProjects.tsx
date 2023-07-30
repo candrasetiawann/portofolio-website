@@ -98,7 +98,7 @@ const CardProjects = () => {
     <div className="pt-6 grid grid-rows-2 gap-4 grid-cols-1 md:grid-cols-2 pb-8">
       {projectsData.map((projects) => (
         <ul
-          className="border-2 border-slate-700 dark:border-sky-600 "
+          className="border-2 border-slate-700 dark:border-gray "
           onMouseEnter={() => handleMouseEnter(projects.title)}
           onMouseLeave={handleMouseLeave}
           key={projects.title}
@@ -118,16 +118,16 @@ const CardProjects = () => {
           </div>
           {/* perbaikan */}
           <div className="py-4 pl-4 pr-4">
-            <h1 className="font-bold text-neutral-700 dark:text-sky-600">
+            <h1 className="font-bold text-neutral-700 dark:text-textgray">
               {projects.title}
             </h1>
-            <p className="text-neutral-700 dark:text-sky-600">
+            <p className="text-neutral-700 dark:text-textgray">
               {projects.desc}
             </p>
             <div className="flex flex-row flex-wrap">
               {projects.tech.map((techName) => (
                 <div key={techName} className="mt-2">
-                  <p className="text-neutral-700 bg-gray-300 border-2  py-1 px-2 mr-2 mb-1 ">
+                  <p className="text-neutral-700 bg-gray border-2  py-1 px-2 mr-2 mb-1 ">
                     {techName}
                   </p>
                 </div>
@@ -136,7 +136,7 @@ const CardProjects = () => {
             <div className="flex flex-rows gap-2">
               <Link href={projects.projectUrl}>
                 <Image
-                  className="hover:bg-gray-200 dark:hover:bg-gray-200 dark:bg-white"
+                  className="hover:bg-gray-200 dark:hover:bg-gray dark:bg-gray"
                   src={codeblok}
                   alt="icon code"
                   width={20}
@@ -145,7 +145,7 @@ const CardProjects = () => {
               </Link>
               <Link href={projects.projectDemoUrl}>
                 <Image
-                  className="hover:bg-gray-200 dark:hover:bg-gray-200 dark:bg-white"
+                  className="hover:bg-gray-200 dark:hover:bg-gray dark:bg-gray"
                   src={display}
                   alt="icon code"
                   width={20}

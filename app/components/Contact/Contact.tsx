@@ -25,12 +25,12 @@ const ContactCard = () => {
         <ul key={contact.name} className="list-disc dark:list-white">
           <li>
             <Link
-              className="font-bold text-neutral-700 dark:text-sky-600"
+              className="font-bold text-neutral-700 dark:text-textgray"
               target="_blank"
               href={contact.url}
             >
               {contact.name} -{" "}
-              <span className="border-neutral-700 border-b border-dotted">
+              <span className="border-gray border-b border-dotted">
                 {contact.username}
               </span>
             </Link>

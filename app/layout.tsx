@@ -53,7 +53,7 @@ export default function RootLayout({
   return (
     <ThemeProvider>
       <html id="html" lang="en" className={`${FiraCode.className} `}>
-        <body className="dark:bg-slate-900 overflow-x-hidden">
+        <body className="dark:bg-bgdark overflow-x-hidden">
           <Navbar />
           <div className=" relative mx-auto mt-16  md:mt-0 md:container lg:px-32 xl:px-72 max-h-screen">
             {children}

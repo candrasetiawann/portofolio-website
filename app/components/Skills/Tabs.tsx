@@ -96,7 +96,7 @@ const TabSkills = () => {
       <div className=" pb-1 ">
         {skillCategories.map((category) => (
           <button
-            className="text-neutral-700 dark:text-sky-600  dark:hover:text-amber-500 hover:text-sky-600 font-bold px-2 pb-1"
+            className="text-neutral-700 dark:text-textgray  dark:hover:text-amber-500 hover:text-sky-600 font-bold px-2 pb-1"
             key={category.id}
             onClick={() => handleTabClick(category)}
           >
@@ -109,7 +109,7 @@ const TabSkills = () => {
           return (
             <ul
               key={skill.name}
-              className="border-2 border-slate-700 dark:border-sky-600  px-8 py-[25px] flex items-center gap-x-4 "
+              className="border-2 border-slate-500 dark:border-gray  px-8 py-[25px] flex items-center gap-x-4 "
             >
               <Image
                 src={getImagePath(skill)}
@@ -118,10 +118,10 @@ const TabSkills = () => {
                 height={80}
               />
               <div>
-                <p className="pt-5 font-bold text-neutral-700 dark:text-sky-600">
+                <p className="pt-5 font-bold text-neutral-700 dark:text-textgray">
                   {skill.name}
                 </p>
-                <p className="pt-5  text-neutral-700 dark:text-sky-600">
+                <p className="pt-5  text-neutral-700 dark:text-textgray">
                   {skill.experience}
                 </p>
               </div>

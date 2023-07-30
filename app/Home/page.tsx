@@ -27,10 +27,10 @@ const Home = () => {
   return (
     <div className=" flex flex-col md:flex-row justify-center items-center gap-x-10 h-[600px] md:h-screen ">
       <div className=" flex flex-col justify-start order-2 px-8 space-y-2 mt-10">
-        <h1 className="font-black text-4xl text-slate-700 dark:text-amber-500 ">
+        <h1 className="font-black text-4xl text-neutral-700 dark:text-textgray ">
           Hello :)
         </h1>
-        <p className="pb-4 text-neutral-700 dark:text-sky-600 ">
+        <p className="pb-4 text-neutral-700 dark:text-textgray ">
           {/*eslint-disable-next-line react/no-unescaped-entities */}
           I'm <span className="text-amber-500">Candra</span> 👋🏼, welcome to my
           portfolio website.
@@ -40,7 +40,7 @@ const Home = () => {
           {iconContact?.map((icon: any) => (
             <Link key={icon.name} href={icon.link}>
               <Image
-                className=""
+                className="dark:bg-white dark:px-1 dark:py-1 dark:rounded-sm"
                 src={icon.src}
                 alt="icon"
                 width={30}
