@@ -7,6 +7,22 @@ import display from "../../assets/img/display.svg";
 
 const projectsData = [
   {
+    title: "candrasetiawan.vercel.app",
+    desc: "Personal website built with Next.js, TypeScript, Tailwind CSS",
+    tech: ["Next JS", "Typescript", "Tailwind CSS"],
+    images: "porto",
+    projectUrl: "https://github.com/candrasetiawann/portofolio-website",
+    projectDemoUrl: "https://candrasetiawan.vercel.app/",
+  },
+  {
+    title: "Pokemon Web App",
+    desc: "A Pokemon list app allows view the Pokemon",
+    tech: ["React JS", "Nextjs", "Tailwind css", "Tanstack Query"],
+    images: "poke",
+    projectUrl: "https://github.com/candrasetiawann/belajar-react-query",
+    projectDemoUrl: "https://poke-react-query.vercel.app/",
+  },
+  {
     title: "Notecs",
     desc: "simple notes app built using nextjs",
     tech: ["Nextjs", "Auth.js", "Prisma", "TypeScript"],
@@ -49,28 +65,12 @@ const projectsData = [
     projectDemoUrl: "https://todofy-pink.vercel.app/",
   },
   {
-    title: "webgw",
-    desc: "Simple SPA using ReactJs and React Router",
-    tech: ["React JS", "React Router"],
-    images: "webgw",
-    projectUrl: "https://github.com/candrasetiawann/spaport",
-    projectDemoUrl: "https://spaportf.vercel.app/",
-  },
-  {
     title: "quizkuis",
     desc: "Simple quiz game using ReactJs and Tailwind css",
     tech: ["React JS", "Nextjs", "Tailwind css"],
     images: "quiz",
     projectUrl: "https://github.com/candrasetiawann/QuizKuis",
     projectDemoUrl: "",
-  },
-  {
-    title: "Pokemon Web App",
-    desc: "A Pokemon list app allows view the Pokemon",
-    tech: ["React JS", "Nextjs", "Tailwind css", "Tanstack Query"],
-    images: "poke",
-    projectUrl: "https://github.com/candrasetiawann/belajar-react-query",
-    projectDemoUrl: "https://poke-react-query.vercel.app/",
   },
 ];
 
