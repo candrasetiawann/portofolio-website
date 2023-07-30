@@ -1,22 +1,25 @@
-import DownloadResumeButton from "../components/Home/DownloadResumeButton";
 import Image from "next/image";
 import profilePic from "@/app/assets/img/candra.jpg";
 import envelope from "../assets/img/contact/envelope.svg";
 import github from "../assets/img/contact/github.svg";
 import linkedin from "../assets/img/contact/social-linkedin.svg";
+import Link from "next/link";
 
 const iconContact = [
   {
     name: "envelope",
     src: envelope,
+    link: "mailto:candrasetiawan0630@gmail.com",
   },
   {
     name: "github",
     src: github,
+    link: "https://github.com/candrasetiawann",
   },
   {
     name: "linkedin",
     src: linkedin,
+    link: "https://github.com/candrasetiawann",
   },
 ];
 
@@ -35,14 +38,15 @@ const Home = () => {
         <div className="flex flex-row gap-x-6">
           {/* <DownloadResumeButton /> */}
           {iconContact?.map((icon: any) => (
-            <Image
-              className=""
-              key={icon.name}
-              src={icon.src}
-              alt="icon"
-              width={30}
-              height={30}
-            />
+            <Link key={icon.name} href={icon.link}>
+              <Image
+                className=""
+                src={icon.src}
+                alt="icon"
+                width={30}
+                height={30}
+              />
+            </Link>
           ))}
         </div>
       </div>
