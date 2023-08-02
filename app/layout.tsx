@@ -25,20 +25,39 @@ export const metadata = {
   },
 };
 
-const FiraCode = localFont({
+// const FiraCode = localFont({
+//   src: [
+//     {
+//       path: "./assets/font/FiraCode-Regular.ttf",
+//       weight: "400",
+//       style: "Regular",
+//     },
+//     {
+//       path: "./assets/font/FiraCode-Medium.ttf",
+//       weight: "500",
+//       style: "Medium",
+//     },
+//     {
+//       path: "./assets/font/FiraCode-Bold.ttf",
+//       weight: "700",
+//       style: "Bold",
+//     },
+//   ],
+// });
+const SpaceGrotesk = localFont({
   src: [
     {
-      path: "./assets/font/FiraCode-Regular.ttf",
+      path: "./assets/font/spacegrotesk/SpaceGrotesk-Regular.ttf",
       weight: "400",
       style: "Regular",
     },
     {
-      path: "./assets/font/FiraCode-Medium.ttf",
+      path: "./assets/font/spacegrotesk/SpaceGrotesk-Medium.ttf",
       weight: "500",
       style: "Medium",
     },
     {
-      path: "./assets/font/FiraCode-Bold.ttf",
+      path: "./assets/font/spacegrotesk/SpaceGrotesk-Bold.ttf",
       weight: "700",
       style: "Bold",
     },
@@ -52,7 +71,7 @@ export default function RootLayout({
 }) {
   return (
     <ThemeProvider>
-      <html id="html" lang="en" className={`${FiraCode.className} `}>
+      <html id="html" lang="en" className={`${SpaceGrotesk.className} `}>
         <body className="dark:bg-bgdark overflow-x-hidden">
           <Navbar />
           <div className=" relative mx-auto mt-16  md:mt-0 md:container lg:px-32 xl:px-72 max-h-screen">
