@@ -3,8 +3,6 @@ import path from 'path'
 import matter from 'gray-matter'
 import rehypeHighlight from 'rehype-highlight'
 import "@/app/assets/style/a11y-dark.css"
-import rehypeCodeTitles from 'rehype-code-titles'
-import rehypePrettyCode from 'rehype-pretty-code'
 
 import { MDXRemote } from 'next-mdx-remote/rsc'
 
@@ -31,8 +29,6 @@ const options = {
   mdxOptions: {
     rehypePlugins: [
       rehypeHighlight,
-      rehypeCodeTitles,
-      rehypePrettyCode
     ]
   }
 }
