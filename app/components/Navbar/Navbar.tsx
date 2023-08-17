@@ -10,7 +10,7 @@ const contents = [
   { target: "/", title: "Home" },
   {
     target: "/blog",
-    title: "blog",
+    title: "articles",
   },
   // {
   //   target: "/Skills",
