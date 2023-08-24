@@ -57,12 +57,12 @@ const projectsData = [
     projectDemoUrl: "https://candrasetiawann.github.io/webku-landing-page/",
   },
   {
-    title: "Todoify",
-    desc: "Simple Todo using react js local storage",
-    tech: ["React JS", "Bootstrap"],
-    images: "todoify",
-    projectUrl: "https://github.com/candrasetiawann/todoreact",
-    projectDemoUrl: "https://todofy-pink.vercel.app/",
+    title: "Dictio",
+    desc: "Simple Dictionary app",
+    tech: ["React JS", "Tailwind css","NextJs","Zustand"],
+    images: "dictio",
+    projectUrl: "https://github.com/candrasetiawann/Dictio",
+    projectDemoUrl: "https://dictio-five.vercel.app/",
   },
   {
     title: "quizkuis",
@@ -98,7 +98,7 @@ const CardProjects = () => {
     <div className="pt-6 grid grid-rows-2 gap-4 grid-cols-1 md:grid-cols-2 pb-8">
       {projectsData.map((projects) => (
         <ul
-          className="border-2 border-slate-700 dark:border-gray "
+          className="border-2 border-slate-700  dark:border-gray "
           onMouseEnter={() => handleMouseEnter(projects.title)}
           onMouseLeave={handleMouseLeave}
           key={projects.title}
