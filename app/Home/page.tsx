@@ -32,7 +32,7 @@ const Home = () => {
         </h1>
         <p className="pb-4 text-neutral-700 dark:text-textgray ">
           {/*eslint-disable-next-line react/no-unescaped-entities */}
-          I'm <span className="text-amber-500">Candra</span> 👋🏼, welcome to my
+          I'm <span className="text-indigo-600">Candra</span> 👋🏼, welcome to my
           portfolio website.
         </p>
         <div className="flex flex-row gap-x-6">

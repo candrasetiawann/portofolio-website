@@ -98,7 +98,7 @@ const CardProjects = () => {
     <div className="pt-6 grid grid-rows-2 gap-4 grid-cols-1 md:grid-cols-2 pb-8">
       {projectsData.map((projects) => (
         <ul
-          className="border-2 border-slate-700  dark:border-gray "
+          className="border-2 border-slate-700  dark:border-slate-50 "
           onMouseEnter={() => handleMouseEnter(projects.title)}
           onMouseLeave={handleMouseLeave}
           key={projects.title}

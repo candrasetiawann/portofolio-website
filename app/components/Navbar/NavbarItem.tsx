@@ -12,9 +12,9 @@ const NavbarItem = ({ content, pathname }: Props) => {
       <Link
         className={`font-bold ${
           pathname === content.target
-            ? "text-sky-600 dark:text-amber-500"
+            ? "text-indigo-600 dark:text-indigo-600"
             : "text-neutral-700 dark:text-textgray"
-        }  hover:text-sky-600 dark:hover:text-amber-500`}
+        } hover:bg-slate-200 dark:hover:bg-bgdark3 px-3 py-2 rounded-md hover:text-indigo-600 dark:hover:text-indigo-600`}
         href={content.target}
       >
         {content.title}
